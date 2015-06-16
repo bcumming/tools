@@ -1,3 +1,6 @@
 [submodule "modules/vim"]
 	path = modules/vim
 	url = git@github.com:vim/vim.git
+[submodule "modules/ag"]
+	path = modules/ag
+	url = git@github.com:ggreer/the_silver_searcher.git
