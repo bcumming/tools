@@ -4,3 +4,6 @@
 [submodule "modules/ag"]
 	path = modules/ag
 	url = git@github.com:ggreer/the_silver_searcher.git
+[submodule "modules/libpcre"]
+	path = modules/libpcre
+	url = git@github.com:vmg/libpcre.git
