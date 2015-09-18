@@ -36,7 +36,23 @@ On Cray systems the default compilers are the Cray wrappers (this is what the YC
 
 hmmmmm, this does the installation without any errors... but the YCM server fails to start
 
+## libpcre
+
+Perl regular expressions, required by Ag
+
+cd modules/libpcre
+autogen.sh
+CFLAGS="-O2" ./configure --prefix=$HOME/tools/$SYSTEM
+make
+make install
+cd ../../
+
+
 # Ag : silver searcher
+requires (make in this order
+- libpcre
+- gettext
+- xz
 
 
 
